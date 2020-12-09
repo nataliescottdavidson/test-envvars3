@@ -5,7 +5,7 @@ import Layout from '../components/layout'
 const IndexPage = () => (
   <Layout>
     <h2>
-      🤓👽🤪🤓 mr potat  adml;zjdflajdf
+      🤓👽🤪🤓 mr potato
       This site shows multiple ways of using ENV variables as shown in the{' '}
       <a href="https://www.gatsbyjs.org/docs/environment-variables">
         documentation
@@ -13,7 +13,7 @@ const IndexPage = () => (
     </h2>
     <p>set by client-side ENV: {`${process.env.GATSBY_WELCOME_MESSAGE}`}</p>
     <p>
-      Command line (develop script in package.json):{' '}
+      Command line env vars :{' '}
       {`${process.env.GATSBY_SOME_ENV_VAR}`}
     </p>
   </Layout>
