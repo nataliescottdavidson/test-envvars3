@@ -30,7 +30,7 @@ const Layout = ({ children }) => (
         >
           {children}
           <div>
-            set by server-side ENV (in layout.js):{' '}
+            set by server-side ENV (in layout.js, declared in gatsby config):{' '}
             {data.site.siteMetadata.twitter} {/* Comes from gatsby-config */}
           </div>
           <footer style={{ marginTop: '2rem' }}>
