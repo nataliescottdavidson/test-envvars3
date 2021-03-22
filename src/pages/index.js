@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 
 const IndexPage = () => (
   <Layout>
-    <h2> :) 👁 😈 beep beep who got keys to tha jeep VROOM VROOM
+    <h2> :) 👁 😈 beep beep who got keys to tha jeep VROOM VROOM 🚙
       This site shows multiple ways of using ENV variables as shown in the{' '}
       <a href="https://www.gatsbyjs.org/docs/environment-variables">
         documentation
